@@ -1,0 +1,28 @@
+ body {
+    color: purple;
+    background-color: pink;
+  }
+  body:hover {
+    color: red;
+  }
+
+h1{font-size: 50px; }
+
+.p-10 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
